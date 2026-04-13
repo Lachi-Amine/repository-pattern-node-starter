@@ -1,0 +1,21 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 22:18:33"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 22:18:33"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 22:19:04"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 22:19:04"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:19:52","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /signup 404 10ms","timestamp":"2026-04-13 22:19:52"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:20:09","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /signup 404 1ms","timestamp":"2026-04-13 22:20:09"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:20:21","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /signup 404 2ms","timestamp":"2026-04-13 22:20:21"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:21:01","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /auth/signup 404 3ms","timestamp":"2026-04-13 22:21:01"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:21:19","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /auth/signup 404 2ms","timestamp":"2026-04-13 22:21:19"}
+{"level":"info","message":"POST /auth/signup 201 116ms","timestamp":"2026-04-13 22:22:01"}
+{"level":"info","message":"POST /auth/login 400 3ms","timestamp":"2026-04-13 22:22:19"}
+{"level":"info","message":"POST /auth/login 200 106ms","timestamp":"2026-04-13 22:22:31"}
+{"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:23:24","type":"NOT_FOUND_ERROR"}
+{"level":"info","message":"GET /auth/signup 404 6ms","timestamp":"2026-04-13 22:23:24"}
+{"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 22:23:36","type":"DUPLICATE_ERROR"}
+{"level":"info","message":"POST /auth/signup 409 4ms","timestamp":"2026-04-13 22:23:36"}
