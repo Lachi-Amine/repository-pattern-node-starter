@@ -5,3 +5,5 @@
 {"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:21:19","type":"NOT_FOUND_ERROR"}
 {"details":null,"level":"error","name":"AppError","statusCode":404,"timestamp":"2026-04-13 22:23:24","type":"NOT_FOUND_ERROR"}
 {"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 22:23:36","type":"DUPLICATE_ERROR"}
+{"details":null,"level":"error","name":"AppError","statusCode":500,"timestamp":"2026-04-13 22:37:12","type":"SERVER_ERROR"}
+{"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 22:37:55","type":"DUPLICATE_ERROR"}

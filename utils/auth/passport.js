@@ -1,6 +1,7 @@
 import passport from "passport";
 import "./local.strategy.js";
-import User from "../../models/user.js";
+import { userRepository } from "../../repositories/user.repository.js";
+
 
 passport.serializeUser((user, done) => {
   const id = user._id ?? user.id;
@@ -9,7 +10,7 @@ passport.serializeUser((user, done) => {
 
 passport.deserializeUser(async (id, done) => {
   try {
-    const user = await User.findById(id).lean();
+    const user = await userRepository.findById(id);
     done(null, user);
   } catch (err) {
     done(err);
