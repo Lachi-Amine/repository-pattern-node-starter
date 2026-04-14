@@ -94,3 +94,6 @@
 {"level":"info","message":"Server running on port 3000","timestamp":"2026-04-14 14:31:20"}
 {"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 14:31:20"}
 {"level":"info","message":"POST /auth/login 200 117ms","timestamp":"2026-04-14 14:31:26"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-14 19:42:54"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 19:42:54"}
+{"level":"info","message":"POST /auth/login 200 110ms","timestamp":"2026-04-14 19:42:59"}
