@@ -29,11 +29,7 @@ app.get("/", (req, res) => {
 });
 
 app.use((req, res, next) => {
-  next(new AppError({
-    message: "Route not found",
-    statusCode: 404,
-    type: ERROR_TYPES.notFound,
-  }));
+  next(new AppError(ERROR_TYPES.NOT_FOUND, "Route not found"));
 });
 
 app.use(errorHandler);
