@@ -1,4 +1,7 @@
+import jwt from "jsonwebtoken";
 import { authService } from "../services/auth.service.js";
+
+const JWT_SECRET = process.env.JWT_SECRET || "secret-key";
 
 const sanitizeUser = (user) => {
   if (!user) return null;
@@ -25,18 +28,23 @@ export const signup = async (req, res, next) => {
 
 export const login = async (req, res, next) => {
   try {
+    const user = req.user;
+    const payload = {
+      sub: user._id ?? user.id,
+      email: user.email,
+    };
+    const token = jwt.sign(payload, JWT_SECRET, { expiresIn: "1d" });
+
     res.json({
       message: "Logged in successfully",
-      user: sanitizeUser(req.user),
+      token,
+      user: sanitizeUser(user),
     });
   } catch (error) {
     next(error);
   }
 };
 
-export const logout = (req, res, next) => {
-  req.logout((err) => {
-    if (err) return next(err);
-    res.json({ message: "Logged out successfully" });
-  });
+export const logout = (req, res) => {
+  res.json({ message: "Logged out successfully. Discard the JWT token on the client." });
 };

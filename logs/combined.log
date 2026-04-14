@@ -50,3 +50,47 @@
 {"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 22:37:55","type":"DUPLICATE_ERROR"}
 {"level":"info","message":"POST /auth/signup 409 16ms","timestamp":"2026-04-13 22:37:55"}
 {"level":"info","message":"POST /auth/login 200 102ms","timestamp":"2026-04-13 22:37:58"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 22:51:02"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 22:51:02"}
+{"level":"info","message":"GET /api-docs 301 10ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/ 200 3ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 0ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 200 8ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 0ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 8ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 14ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 2ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 6ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 200 2ms","timestamp":"2026-04-13 22:51:05"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:03:27"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:03:27"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:06:08"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:06:08"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:08:35"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:08:35"}
+{"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 23:08:40","type":"DUPLICATE_ERROR"}
+{"level":"info","message":"POST /auth/signup 409 25ms","timestamp":"2026-04-13 23:08:40"}
+{"details":null,"level":"error","name":"AppError","statusCode":409,"timestamp":"2026-04-13 23:08:42","type":"DUPLICATE_ERROR"}
+{"level":"info","message":"POST /auth/signup 409 4ms","timestamp":"2026-04-13 23:08:42"}
+{"level":"info","message":"POST /auth/signup 400 3ms","timestamp":"2026-04-13 23:08:48"}
+{"level":"info","message":"POST /auth/signup 201 108ms","timestamp":"2026-04-13 23:08:58"}
+{"level":"info","message":"POST /auth/login 200 103ms","timestamp":"2026-04-13 23:09:11"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:09:45"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:09:45"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:09:58"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:09:58"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:10:07"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:10:07"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:11:40"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:11:40"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:12:00"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:12:00"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:13:22"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:13:22"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-13 23:14:41"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-13 23:14:41"}
+{"level":"info","message":"POST /auth/signup 201 102ms","timestamp":"2026-04-13 23:14:51"}
+{"level":"info","message":"POST /auth/login 200 97ms","timestamp":"2026-04-13 23:14:57"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2026-04-14 14:31:20"}
+{"level":"info","message":"MongoDB connected","timestamp":"2026-04-14 14:31:20"}
+{"level":"info","message":"POST /auth/login 200 117ms","timestamp":"2026-04-14 14:31:26"}

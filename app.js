@@ -1,32 +1,27 @@
 import express from "express";
-import session from "express-session";
 import mongoose from "mongoose";
 import passport from "./utils/auth/passport.js";
 import authRoutes from "./routes/auth.routes.js";
+import swaggerUi from "swagger-ui-express";
+import { swaggerSpec } from "./utils/docs/swagger.js";
 import { AppError, ERROR_TYPES, errorHandler } from "./middlewares/errhandler.js";
 import { logger, requestLogger } from "./logger/index.js";
+import dotenv from "dotenv"
+dotenv.config();
 
 const app = express();
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/myapp")
+  .connect(process.env.MONGODB_URI )
   .then(() => logger.info("MongoDB connected"))
   .catch((err) => logger.error("MongoDB connection error:", err));
 
 app.use(express.json());
 app.use(requestLogger);
 
-app.use(
-  session({
-    secret: "secret-key",
-    resave: false,
-    saveUninitialized: false,
-  })
-);
-
 app.use(passport.initialize());
-app.use(passport.session());
 
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/auth", authRoutes);
 
 app.get("/", (req, res) => {
@@ -43,6 +38,6 @@ app.use((req, res, next) => {
 
 app.use(errorHandler);
 
-app.listen(3000, () => {
-  logger.info("Server running on port 3000");
+app.listen(process.env.PORT || 3000, () => {
+  logger.info("Server running on port " + (process.env.PORT || 3000));
 });

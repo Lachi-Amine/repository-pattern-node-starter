@@ -1,16 +1,13 @@
 import User from "../models/user.js";
+import { BaseRepository } from "./base.repository.js";
+class UserRepository extends BaseRepository {
+  constructor() {
+    super(User);
+  }
 
-export const userRepository = {
   async findByEmail(email) {
-    return User.findOne({ email }).lean();
-  },
+    return this.model.findOne({ email });
+  }
+}
 
-  async findById(id) {
-    return User.findById(id).lean();
-  },
-
-  async createUser(data) {
-    return User.create(data);
-  },
-};
-
+export const userRepository = new UserRepository();
